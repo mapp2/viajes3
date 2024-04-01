@@ -1,0 +1,21 @@
+body {
+    background: #161815;
+}
+
+.menu .navbar{
+    margin-left: 65%;
+    position: fixed;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+
+.pie {
+    color: white;
+    text-align: center;
+    background: #343a40;
+    margin-top: 9%;
+    height: 50px;
+}
+
+

@@ -1,0 +1,220 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif;
+    background: #161815;
+}
+
+.menu .navbar {
+    margin-left: 65%;
+    margin-bottom: px;
+    position: fixed;
+
+}
+
+.navbar-brand {
+    color: #fff;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.navbar-light .navbar-brand:focus, .navbar-light .navbar-brand:hover {
+    color: #000;
+}
+
+.header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    background: rgba(38, 4, 111);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    backdrop-filter: blur(10px);
+    border-bottom: 2px solid rgba(255, 255, 255, 0.2);
+}
+
+.header::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.4), transparent);
+    transition: .5s;
+}
+
+.navbar a {
+    color: #fff;
+    font-size: 18px;
+    text-decoration: none;
+    margin-left: 35px;
+    transition: .3s;
+    text-align: right;
+}
+
+.navbar a:hover {
+    color: rgb(65, 105, 238);
+}
+
+.part1 {
+    color: white;
+    padding: 70px 0;
+    
+}
+
+.titulo1 {
+    text-align: center;
+    font-size: 36px;
+    line-height: 1px;
+}
+
+.parra {
+    text-align: center;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.p4 {
+    text-align: center;
+}
+
+.card {
+    display: inline-block;
+    text-align: center;
+    height: 10rem;
+    width: 15rem;
+    background: #343a40;
+    border-radius: 1rem;
+    box-shadow: 0 .3rem 5rem rgba(0, 0, 0, .5);
+    margin: 4rem;
+    display: inline-block; 
+    padding: 10px 0;;
+}
+
+.modo{
+    display: flex;
+    justify-content: center;
+}
+
+.card i {
+    height: 4rem;
+    width: 4rem;
+    line-height: 4rem;
+    text-align: center;
+    border-radius: 50%;
+    color: #fff;
+    background: rgb(65, 105, 238);
+    font-size: 2rem;
+    margin: rem 0;
+}
+
+
+
+.part2 {
+    color: white;
+    text-align: center;
+    padding: 200px 0;
+    background: url(img/globos.jpg) no-repeat fixed;
+    background-size: cover;
+    
+}
+
+.p5 {
+    font-weight: 700;
+}
+
+.card2 {
+    display: inline-block;
+    padding: 10px 0px;
+}
+
+.card2 i {
+    height: 4rem;
+    width: 4rem;
+    line-height: 4rem;
+    text-align: center;
+    border-radius: 50%;
+    color: #fff;
+    background: rgb(65, 105, 238);
+    font-size: 2rem;
+    margin: 1rem 0;
+    
+}
+
+.card2 {
+    height: 10rem;
+    width: 15rem;
+    background: #343a40;
+    text-align: center;
+    border-radius: 1rem;
+    box-shadow: 0 .3rem 5rem rgba(0, 0, 0, .5);
+    margin: 2rem;
+    display: inline-block;
+}
+
+.part3 {
+    color: white;
+    padding: 70px 0;
+}
+
+.titulo2 {
+    text-align: center;
+    font-size: 36px;
+    line-height: 1px;
+}
+
+.parra2 {
+    text-align: center;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.titulo3 {
+    text-align: center;
+    font-size: 36px;
+    line-height: 1px;
+}
+
+.card3 {
+    height: 10rem;
+    width: 15rem;
+    background: #343a40;
+    text-align: center;
+    border-radius: 1rem;
+    box-shadow: 0 .3rem 5rem rgba(0, 0, 0, .5);
+    margin: 2.5rem;
+    display: inline-block;
+}
+
+.card3 i {
+    height: 4rem;
+    width: 4rem;
+    line-height: 4rem;
+    text-align: center;
+    border-radius: 50%;
+    color: #fff;
+    background: rgb(65, 105, 238);
+    font-size: 2rem;
+    margin: 1rem 0;
+    
+
+}
+
+.pie {
+    color: white;
+    text-align: center;
+    background: #343a40;
+    height: 50px;
+}
+.tt .titulo {
+    color: white;
+    margin-left: 15px;
+    font-weight: 700;
+}
